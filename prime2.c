@@ -3,6 +3,7 @@ int prime(int num);
 main()
 {
 int num, check;
+printf("prime numbers:");
 printf("Enter the number to check: ");
 scanf("%d", &num);
 check=prime(num);
